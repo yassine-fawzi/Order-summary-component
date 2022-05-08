@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap");
+*{
+    margin: 0%;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    height: 800px;
+}
+.container{
+    background-color: white;
+    width: 450px;
+    height: 700px;
+    font-family: "Red Hat Display", sans-serif;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+.frontimg img{
+    width: 100%;
+}
+/* text position */
+h1{
+    text-align: center;
+    padding-top: 35px;
+    color: hsl(223, 47%, 23%);
+}
+.firsttext p{
+    padding-top: 20px;
+    color: hsl(224, 23%, 55%);
+    font-size: 19px;
+}
+.annualplan{
+    display: flex;
+    text-align: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 12px;
+    margin: 25px;
+    color: (224, 23%, 55%);
+    border-radius: 15px;
+}
+.price{
+    padding-top: 4px;
+    color: hsl(224, 23%, 55%)
+}
+.change{
+    margin-left: 125px;
+    padding-top: 15px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+.annualplan img{
+    width: 40px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 8px;
+}
+.plan{
+   color: hsl(223, 47%, 23%);
+}
+.payment .button{
+    display: flex;
+    padding: 15px 110px;
+    margin: 28px;
+    padding-bottom: px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color:hsl(225, 100%, 98%);
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.cancel{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+.change a:visited{
+    color: hsl(245, 75%, 52%);
+}
+.change:hover{
+    text-decoration: none;
+    color: hsl(244, 91%, 69%);
+}
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+.payment .button:hover{
+    background-color: hsl(244, 91%, 69%);
+}
